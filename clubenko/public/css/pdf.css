@@ -1,0 +1,121 @@
+body.pdf{
+ font-family: 'Lato', sans-serif;
+}
+.pdf-body{
+	width: 90%;
+	display: block;
+	margin: 30px auto 10px auto;
+	text-align: justify;
+}
+.line{
+	border-top:1px solid grey;
+	margin-top: 20px;
+}
+
+.descripcion-cupon{
+	position: relative;
+}
+	.descripcion-cupon .imagen-cupon{
+		width: 320px;
+		display: inline-block;
+	}
+		.descripcion-cupon .imagen-cupon img{
+			margin: 0;
+		}
+
+	.descripcion-cupon .texto-cupon{
+		display: inline-block;
+		width: 45%;
+		margin-left: 5%;
+		margin-top: 10px;
+		font-size: 14px
+	}
+		.cupon-title{
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+.pdf-datos-cupon{
+	margin-top: -55px;
+	height: 60px;
+	width: 100%;
+	color: #121526 !important;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-left:-1px; 
+}
+	.pdf-datos-cupon .pdf-tipo-descuento{
+		width: 60px;
+		height: 60px;
+		background-color: rgba(18, 21, 38, 0.6);
+		display: inline-block;
+	}
+		.pdf-datos-cupon .pdf-tipo-descuento .tipo{
+			color: #fff !important;
+		    font-size: 20px;
+		    text-align: center;
+		    margin-top: 17px;
+		}
+	.pdf-datos-cupon .pdf-datos-descuento{
+		width: 240px;
+		height: 60px;
+		box-sizing:border-box;
+		padding: 0 10px;
+		font-size: 11px;
+		display: inline-block;
+		line-height: 9px;
+	}
+		.pdf-datos-cupon .pdf-datos-descuento .pdf-cupon-titulo{
+			font-weight: bold;
+				margin-bottom: 0;
+	
+		}		
+		.pdf-datos-cupon .pdf-datos-descuento .pdf-cupon-descripcion{
+			font-weight: normal;
+			margin-top: 0;
+	
+		}
+
+.establecimientos{
+	padding-top: 30px;
+}
+
+	.establecimientos .logo-marca{
+		width: 20%;
+		display: inline-block;
+	}
+
+	.establecimientos .listado-tiendas{
+		display: inline-block;
+		width: 20%;
+		font-size: 11px;
+		padding:0 15px;
+		box-sizing:border-box;
+	}
+
+	.establecimientos .listado-tiendas p{
+		margin-bottom: 5px;
+	}
+
+.qr-cupon{
+	padding-top: 30px;
+}
+
+	.qr-cupon .qr{
+		display: block;
+		margin: 20px auto;
+		width: 250px;
+	}
+
+.politicas{
+	padding-top: 30px;
+	font-size: 12px;
+}
+	
+
+
+
+
+
+
+
+

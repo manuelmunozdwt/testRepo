@@ -1,0 +1,358 @@
+.head {
+    margin-bottom: 6px;
+}
+.sidebar {
+    position: absolute;
+    right: 0;
+}
+.module>.section {
+    padding: 3rem;
+}
+#mod-welcome {
+    margin-top: 12px;
+}
+#mod-welcome h1 {
+    font-size: 24px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+#mod-welcome h2 {
+    font-size: 14px;
+    color: #75787b;
+    margin: 10px 0 0;
+    line-height: 1.1;
+}
+#mod-messaging {
+    border: 0;
+    background: 0;
+    margin-bottom: 30px;
+}
+.module.full {
+    width: 100%;
+}
+.module {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.module {
+    background-color: inherit;
+}
+
+#secure-transaction {
+    display: inline-block;
+    position: absolute;
+    top: -25px;
+    right: 0;
+    font: 400 12px OpenSans;
+    color: #75787b;
+}
+#secure-transaction .secure-icon {
+    display: inline-block;
+    background-position: -27px -1px;
+}
+.assets.s-12 {
+    height: 12px;
+    width: 12px;
+}
+.assets {
+    background-image: url(shared-assets-9733ece454.png);
+    background-repeat: no-repeat;
+}
+#account-billing-info {
+    background: inherit;
+    border: none;
+}
+#account-billing-info h1 {
+    border: 1px solid #d5d8db;
+    border-radius: 2px 2px 0 0;
+}
+
+#account-billing-info>.credit-card-list {
+    background-color: #fff;
+    border: 1px solid #d5d8db;
+    border-top: 0;
+}
+#account-billing-info .payment-method.payment-methods-container {
+    margin: 0;
+}
+#account-billing-info .payment-creditcard.payment-row {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+#account-billing-info .payment-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e7e8;
+    width: 100%;
+    float: left;
+}
+#account-billing-info .credit-card-list .label, #account-billing-info .payment-method .label {
+    margin: 0;
+    padding-left: 4rem;
+}
+#account-billing-info .payment-row .label {
+    margin: 0 0 0 4rem;
+}
+
+#account-billing-info label[for=creditcard] {
+    height: 24px!important;
+}
+input[type=radio]+label:after, input[type=radio]+label:before {
+    border-radius: 50%;
+}
+input[type=checkbox]+label:before, input[type=radio]+label:before {
+    border: 1px solid #a5a8ab;
+}
+input[type=checkbox]+label:after, input[type=checkbox]+label:before, input[type=radio]+label:after, input[type=radio]+label:before {
+    display: block;
+    position: absolute;
+    content: "";
+    height: 1.8rem;
+    top: 0;
+    left: 0;
+    width: 1.8rem;
+    transition: background-color .1s ease-in,border-color .1s ease-in,-webkit-transform .1s ease-in;
+    transition: background-color .1s ease-in,transform .1s ease-in,border-color .1s ease-in;
+    transition: background-color .1s ease-in,transform .1s ease-in,border-color .1s ease-in,-webkit-transform .1s ease-in;
+}
+input[type=radio]+label:after {
+    height: 1.4rem;
+    margin: .3rem;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    width: 1.4rem;
+}
+#account-billing-info .payment-method .payment-name {
+    font: 400 18px OpenSans;
+}
+#account-billing-info .payment-row .payment-icon {
+    vertical-align: middle;
+}
+.payment-icon.creditcard {
+    background-position: -4px -5px;
+    height: 19px;
+    width: 62px;
+}
+.payment-icon {
+    width: 27px;
+    height: 19px;
+    margin-left: 10px;
+    display: inline-block;
+    background: url(confirmation-payment_icons-a083c677e0.png) no-repeat 100px 100px;
+}
+#account-billing-info .new-payment {
+    float: left;
+}
+#account-billing-info .payment-row .row.form {
+    margin: 0;
+}
+#extra-fields .section>fieldset>fieldset:not(.form-v2-1) .field label, .form:not(.form-v2-1) .field label {
+    color: #a5a8ab;
+    font: 500 12px OpenSans;
+    display: block;
+    margin-bottom: 0;
+}
+#extra-fields .section>fieldset>fieldset:not(.form-v2-1) .field input, #extra-fields .section>fieldset>fieldset:not(.form-v2-1) .field select, .form:not(.form-v2-1) .field input, .form:not(.form-v2-1) .field select {
+    font: 400 14px OpenSans;
+    margin-bottom: .5em;
+    display: inline-block;
+}
+#account-billing-info .payment-row .payment-icon {
+    vertical-align: middle;
+}
+.payment-icon.paypal {
+    height: 36px;
+    width: 60px;
+    background: url(confirmation-assets-eec48a0805.png) no-repeat;
+    background-position: -131px -39px;
+}
+.module>.section.forced:first-child, .module>.section:first-child, .module>h1:first-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-top: 1px solid #d5d8db;
+}
+#mod-items>.section {
+    padding: 10px 20px;
+}
+.module>.section, .module>.section.forced, .module>h1 {
+    border: 1px solid #d5d8db;
+    background-color: #fff;
+    border-top: 0;
+}
+.module>h1 {
+    height: 45px;
+    background: #f6f7f8;
+    font: 300 18px OpenSans;
+    line-height: 45px;
+    padding-left: 20px;
+    margin: 0!important;
+}
+#mod-items .image-container, #mod-items .info-container {
+    padding: 0;
+}
+#mod-items .info-container {
+    padding-left: .5rem!important;
+}
+.column+.column:last-child, .column+.columns:last-child, .columns+.column:last-child, .columns+.columns:last-child {
+    float: right;
+}
+#mod-items .image-container .columns:last-child, #mod-items .info-container .columns:last-child {
+    padding-right: 0;
+}
+#mod-items .item .quantity>:first-child {
+    padding-left: 2px;
+}
+
+#mod-items .item .quantity label {
+    font-weight: 700;
+    display: inline-block;
+}
+
+label {
+    color: #333;
+    margin: 12px 0;
+    transition: color .25s ease-out;
+}
+#mod-items .item .quantity select {
+    width: 8rem;
+    margin-top: 0;
+    display: inline-block;
+    font: 400 13px OpenSans;
+    margin-left: .75rem;
+}
+#mod-items .item h3 {
+    font: 300 14px OpenSans;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+#mod-items .item .subtotal {
+    font: 400 20px OpenSans;
+    color: #333;
+    text-align: right;
+}
+#mod-overview h1 {
+    border: 1px solid #d5d8db;
+    border-radius: 2px 2px 0 0;
+}
+.module>.section.forced:last-child, .module>.section:last-child, .module>h1:last-child {
+    border-bottom: 1px solid #d5d8db;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#mod-overview .section.first {
+    border-top: 0;
+}
+#mod-overview .section {
+    background-color: #fff;
+    border: 1px solid #d5d8db;
+}
+#mod-overview #overview-subtotal .item, #mod-overview #overview-total .item {
+    font: 400 14px OpenSans;
+    line-height: 27px;
+    color: #333;
+}
+#mod-overview .columns {
+    padding: 0;
+}
+#mod-overview #overview-subtotal .item>span:nth-child(2), #mod-overview #overview-total .item>span:nth-child(2) {
+    text-align: right;
+    white-space: nowrap;
+}
+#mod-overview .columns {
+    padding: 0;
+}
+#mod-overview {
+    position: absolute;
+    background: inherit;
+    border: none;
+}
+.ltr .main .columns.left, .ltr .module.main {
+    padding-left: 0;
+}
+#extra-fields .section>fieldset>fieldset, .form {
+    padding: 0;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    max-width: 44rem!important;
+}
+.row .twelve {
+    width: 100%;
+}
+#mod-items .item .quantity select {
+    width: 8rem;
+    margin-top: 0;
+    display: inline-block;
+    font: 400 13px OpenSans;
+    margin-left: .75rem;
+}
+
+select, textarea {
+    background-color: #fff;
+    border: 1px solid #a5a8ab;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    margin: 12px 0 24px;
+    transition: background-color .25s ease-out,border-color .25s ease-out,color .25s ease-out;
+    width: 100%;
+}
+.ltr .module.sidebar {
+    padding-right: 0;
+}
+hr {
+    margin: 1em 0;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid #d5d8db;
+    height: 0;
+}
+#mod-overview #overview-subtotal .item, #mod-overview #overview-total .item {
+    font: 400 14px OpenSans;
+    line-height: 27px;
+    color: #333;
+}
+#mod-overview #overview-total .item.big {
+    color: #333;
+    size: 18px;
+    font-weight: 700;
+}
+#mod-overview .complete-order {
+    width: 100%;
+    height: 55px;
+    background-image: inherit;
+    margin: 19px 0 13px;
+    font-size: 18px!important;
+    white-space: nowrap;
+    padding: 0;
+}
+#mod-overview .currency-banner label, #mod-overview .legal-disclaimers label {
+    font: 700 11px OpenSans;
+    color: #a5a8ab;
+}
+
+input[type=checkbox]+label:before {
+    background: #fff;
+    border-radius: 2px;
+}
+input[type=checkbox]+label:before, input[type=radio]+label:before {
+    border: 1px solid #a5a8ab;
+}
+input[type=checkbox]:checked+label:before {
+    background-color: #53a318;
+    border-color: #53a318;
+}
+input[type=checkbox]+label:after {
+    color: #fff;
+    font-family: Groupon;
+    font-size: 1em;
+    margin: .05em;
+    text-align: center;
+}

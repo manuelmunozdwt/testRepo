@@ -1,0 +1,1825 @@
+/********************/
+/***** GENERAL ******/
+/********************/
+@font-face{
+  font-family:"Montserrat-Semibold";
+  
+  src: url('../fonts/Montserrat-SemiBold.otf') format("opentype");
+
+}
+@font-face{
+  font-family:"Montserrat-UltraLight";
+  
+  src: url('../fonts/Montserrat-UltraLight.otf') format("opentype");
+
+}
+.semibold{
+}
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	color: #121424;
+	font-family: Montserrat, sans-serif;
+
+}
+ul{
+	list-style: none;
+	padding:0;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	background:#121424 !important;
+	padding: 0 10px;
+	min-height: 100px;
+}
+#content {
+	padding-bottom:100px;/* Height of the footer element */
+
+}
+#footer {
+	background:#121424;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+#footer.fixed {
+	position: fixed;
+	height: auto;
+	z-index: 3;
+}
+
+img{
+	max-width: 100%;
+}
+a, a:focus, a:hover{
+	color: #333;
+	text-decoration: none;
+}
+.btn.focus, .btn:focus, .btn:hover{
+	color: inherit;
+}
+.btn-ancho{
+	float: none;
+	display: block;
+	width: 100%;
+	margin: 10px auto;
+
+}
+.alert-success{
+	color: #121425;
+	background-color: rgba(18, 21, 38, 0.1);
+	border-radius: 0;
+	border: 1px solid rgba(18, 21, 38, 0.6);
+}
+/**** Barra de navegación ****/
+.logo-container{
+	width: 180px;
+}
+.logo-container img{
+	max-width: 90%;
+}
+.icon-bar{
+	height: 3px !important;
+	background-color: #fff;
+}
+button.navbar-toggle{
+	margin-top: 38px;
+}
+.navbar{
+	margin-bottom: 0;
+}
+	.navbar .container.menu{
+		padding: 0 5px;
+	}
+	.navbar a{
+		color: #fff;
+		height: auto;
+	}
+	.navbar-center{
+		text-align: center;
+	    display: block;
+	    margin: 0 auto;
+	    width: 100%;
+	    position: absolute;
+	    top: 0;
+	    padding: 0;
+	}
+		.navbar-center img{
+			display: block;
+			margin: 0 auto;
+			height: 80px;
+		}
+	.navbar-right >li>a{
+		margin:10px 0px 0px 20px;
+	}
+
+	.navbar-left >li>a{
+		margin: 10px 20px 0px 0px; 
+
+	}
+/* submenu */
+.dropdown-menu li{
+	padding: 10px 0;
+}
+.navbar-nav{
+	margin: 0;
+}
+div#app-navbar-collapse{
+	background:#121424;
+	/*margin-top:35px;*/
+}
+div#app-navbar-collapse a{
+	color: #fff;
+	text-align: right;
+}
+
+.nav>li>a:focus, 
+.nav>li>a:hover{
+	background-color: #fff;
+	color: #121424 !important;
+}
+/********************/
+/****** LOGIN *******/
+/********************/
+.texto{
+	margin:50px auto 20px auto;
+	font-size: 12px;
+}
+.login-form{
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+	border: none;
+	background: #d5d5d5;
+	height: 40px;
+}
+.blue-button{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	background: #121424;
+	color: #fff;
+	text-align: center;
+	border: none;
+	height: 50px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top:30px; 
+}
+::-webkit-input-placeholder {
+   color: #121424;
+   font-weight: bold;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #121424;
+   font-weight: bold;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #121424;
+   font-weight: bold;  
+}
+
+:-ms-input-placeholder {  
+   color: #121424;
+   font-weight: bold;  
+}
+
+.recuperar-pass{
+	font-weight: 100;
+}
+/********************/
+/** LOGIN COMERCIO **/
+/********************/
+#login-comercio.login-comercio{
+	background: url('../img/imagen1.jpg') no-repeat fixed center top;
+	background-size: cover;
+	height: 100%;
+}
+#login-comercio.reset-comercio{
+	background: url('../img/imagen3.jpg') no-repeat fixed center top;
+	background-size: cover;
+	height: 100%;
+}
+#login-comercio.registro-comercio{
+	background: url('../img/imagen2.jpg') no-repeat fixed center top;
+	background-size: cover;
+	height: 100%;
+}
+	#login-comercio .logo{
+		display: block;
+		margin: 20px auto;
+	}
+	#login-comercio .titulo{
+		text-align: center;
+		font-family: Montserrat, sans-serif;
+		font-size: 50px;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin: 30px  0 0 0;
+	}
+	#login-comercio .texto{
+		text-align: center;
+		font-size: 18px;
+		margin: 0px auto 20px auto;
+	}
+	#login-comercio .form-horizontal{
+		width: 250px;
+		display: block;
+		margin: 20px auto;
+	}
+
+	#login-comercio .registro-comercio{
+		min-height: 900px;
+	}
+
+	#login-comercio .label{
+		width: 100%;
+		font-weight: 400;
+		text-align: center;
+		color: #121424;
+		display: block;
+		font-size: 14px;
+	}
+	#login-comercio input{
+		background-color: rgba(18, 21, 38, 0.3);
+	}
+	#login-comercio .blue-button{
+		width: 100%;
+		background-color: rgba(18, 21, 38, 0.6);
+		padding: 20px 0 40px 0;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+	}
+
+	#login-comercio .help-block{
+		color: #121424 !important;
+	}
+	/* .squaredThree */
+	.squaredThree {
+	  
+	  position: relative;
+	  margin: 20px auto;
+	}
+	.squaredThree label {
+	  width: 20px;
+	  height: 20px;
+	  cursor: pointer;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  background: rgba(18, 21, 38, 0.3);
+	  box-shadow: inset 0px 1px 1px rgba(18, 21, 38, 0.6), 0px 1px 0px rgba(255, 255, 255, 0.4);
+	}
+	.squaredThree label:after {
+	  content: '';
+	  width: 9px;
+	  height: 5px;
+	  position: absolute;
+	  top: 5px;
+	  left: 5px;
+	  border: 3px solid #fcfff4;
+	  border-top: none;
+	  border-right: none;
+	  background: transparent;
+	  opacity: 0;
+	  -webkit-transform: rotate(-45deg);
+	          transform: rotate(-45deg);
+	}
+	.squaredThree label:hover::after {
+	  opacity: 0.3;
+	}
+	.squaredThree input[type=checkbox] {
+	  visibility: hidden;
+	}
+	.squaredThree input[type=checkbox]:checked + label:after {
+	  opacity: 1;
+	}
+	.squaredThree span{
+		margin-left: 15px;
+	}
+
+	/* end .squaredThree */
+
+
+/********************/
+/******* HOME *******/
+/********************/
+
+.menu-categorias{
+	float: none;
+	width: 90%;
+	display: block;
+	margin: 10px auto;
+	padding: 5px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.menu-categorias .iconos-cat{
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+}
+	.menu-categorias img{
+		display: inline-block;
+		width: 50%;
+		max-width: 100px;
+	}
+	.menu-categorias .cat-nombre{
+		text-align: center;
+		font-size: 10px;
+	}
+.slick-slide img{
+	margin: 0 auto;
+}
+	a:focus{
+		outline: none!important;
+	}
+.flecha-izq{
+	position: absolute;
+	left: -12px;
+	top: 40%;
+	z-index: 2;
+}
+.flecha-dch{
+	position: absolute;
+	right: -12px;
+	top: 40%;
+}
+.ultimas-promos, 
+.section-title{
+	background-color: #121424;
+	color: #fff;
+}
+.section-title{
+	z-index: 2;
+}
+	.section-title p{
+		padding-top: 4px;
+		padding-bottom: 4px;
+		margin-bottom: 0;
+		
+	}
+ .promo{
+ 	/*width: 80%;*/
+ 	margin: 20px auto ;
+ 	-webkit-box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+	 .promo img{
+	 	display: block;
+		margin: 0 auto;
+	 }
+
+ .promo-container{
+ 	margin: 15px auto;
+ }
+
+	 .promo-container img{
+	 	display: block;
+	 	margin: 0 auto;
+	 }
+	 .promo-container a{
+	 	padding:0 15px;
+	 	float: right;
+	 }
+ /*Carouse home*/
+ .carousel{	
+ 	height: 295px;
+ 	background-color: white;
+ }
+.carousel-indicators{
+	bottom: 0px;
+}
+	.carousel-indicators li{
+		border:1px solid #121424;
+	}
+
+	.carousel-indicators li.active{
+		background-color: #121424;
+	}
+.carousel-inner>.item>a>img, 
+.carousel-inner>.item>img, 
+.img-responsive, 
+.thumbnail a>img, 
+.thumbnail>img{
+	width: 100%;
+}
+.item .promo{
+	margin: 0 auto;
+}
+
+/********************/
+/**** CATEGORÍAS ****/
+/********************/
+.imagen-categoria{
+	position: absolute;
+	left: 35%;
+}
+	.imagen-categoria .imagen-categoria-box{
+		width: 100%;
+	    display: block;
+	    margin: 0 auto;
+	    text-align: center;
+	    font-size: 10px;
+	    position: relative;
+
+	}	
+		.imagen-categoria .imagen-categoria-box img{ 
+			
+		}
+		.imagen-categoria .imagen-categoria-box p{
+
+		}
+
+.heading-categoria{
+	margin-top:15px;
+	position: relative;
+	height: 70px;
+}
+
+	.heading-categoria .menu-categoria{
+		border-top: 1px solid #ccc;
+		position: relative;
+		padding:0 15px;
+	}
+	.heading-categoria .item-left{
+		left: 0;
+		position: absolute;
+		top:0;
+	}
+	.heading-categoria .item-right{
+		right: 0;
+		position: absolute;
+		top:-30px;
+	}
+	.heading-categoria img{
+		width: 35%;
+		max-width: 100px;
+		display: block;
+		margin:-30px auto 0 auto;
+
+	}
+	.heading-categoria .dropdown-subcategorias i{
+		font-size: 17px;
+	}	
+		.heading-categoria .dropdown-subcategorias {
+			width: 100px;
+		}
+	.slick-slide{
+		height: auto !important;
+	}
+#subcategorias .dropdown-menu{
+	box-shadow: none;
+    background: #d5d5d5;
+    border: none;
+    border-radius: 0;	
+    top: auto;
+    /*width: 80%;*/
+    left: -15px;
+    padding-left: 10px;
+}
+.arrow_box {
+	position: relative;
+	background: #d5d5d5;
+	border: 7px solid #;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 20px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(213, 213, 213, 0);
+	border-bottom-color: #d5d5d5;
+	border-width: 7px;
+	margin-left: -7px;
+}
+.arrow_box:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #;
+	border-width: 17px;
+	margin-left: -17px;
+}
+
+#filtros .dropdown-menu{
+	width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(255,255,255,0.9);
+}
+
+#filtros .dropdown-menu li{
+    padding: 5px 10px;
+    font-size: 17px;
+}
+	 .bullet{
+		border-radius: 50%;
+		border: 1px solid #121424;
+		width: 12px;
+		height: 12px;
+		display: inline-block;
+		margin-left: 5px;
+		background-color: #fff;
+	}
+	#filtros a, #subcategorias a{
+		display: inline-block;
+		text-align: left;
+		padding-left: 5px !important;
+	}
+
+	.active{
+		background-color: #121424;
+	}
+
+.container-fluid.promos.lista-promos{
+	position: absolute;
+	top: 70px;
+}
+/* Mis cupones */
+
+.mis-cupones{
+	margin-top: 40px;
+}
+	.mis-cupones .promo{
+		margin: 20px auto !important;
+	}
+/********************/
+/**** DESCUENTOS ****/
+/********************/
+.descuentos .datos-descuento, 
+#voucherCupon .datos-descuento,
+#cupon .datos-descuento{
+	width: 100%;
+	padding: 13px;
+}
+/* Modal descuentos */
+.modal-descuento{
+	margin-top: 40%;
+	border: 5px solid rgba(10, 21, 38, 0.6);
+	background-color: #fff;
+}
+	.modal-descuento .modal-header, .modal-descuento .modal-footer{
+		border: none;
+	}
+	.modal-descuento .logo-negro, .modal-descuento .logo{
+		max-width: 80%;
+		text-align: center;
+		margin: 20px auto 0 auto;
+	}
+	.modal-descuento p.titulo-cupon{
+		width: 80%;
+		margin: 0 auto;
+		font-weight: bold;
+	}
+
+	.modal-descuento .codigo{
+		border: 3px solid rgba(10, 21, 38, 0.3);
+		padding: 10px 15px;
+		margin-top: 20px;
+		position: relative;
+	}
+		.modal-descuento .codigo .copiar{
+			position: absolute;
+			right: 6px;
+			top: 6px;
+			color: #fff;	
+		  	background-color: rgba(10, 21, 38, 0.6);
+		  	padding: 4px 10px;
+		}
+			.modal-descuento .codigo .copiar a{
+				color: #fff;
+			}
+		.modal-descuento .modal-body .text{
+			padding-top: 5px;
+			padding-left: 2px;
+			color: rgba(10, 21, 38, 0.6);
+		}
+	.modal-descuento .btn-comentario, #td .btn-comentario{
+		float: none;
+		display: block;
+	    width: 130px;
+	    margin: 10px auto;
+	    border-radius: 30px;
+	    padding: 10px 20px;
+	    font-size: 14px;
+
+	}
+
+/********************/
+/****** CUPONES *****/
+/********************/
+
+/* CAJA CUPON */
+.promo{
+	position: relative;
+}
+.brand{
+	
+		position: absolute;
+		right: 0;
+		top: 0;	
+}
+	.logo-tienda{
+		width: 60px;
+		margin-right: 15px;
+		margin-top: 15px;
+	}
+	.logo-blanco{
+		background:rgba(255,255,255,0.8);
+		font-size: 20px;
+		color: #121424;
+		padding: 15px;
+	}
+	.logo-negro{
+
+		background:rgba(18, 21, 38, 0.5);
+		font-size: 20px;
+		color: #fff;
+		padding: 15px;
+
+	}
+		.logo-negro a{
+			color: #fff;
+			opacity: 1;
+		}
+.datos-cupon{
+	position: absolute;
+	bottom: 0;
+	height: 70px;
+	width: 100%;
+	color: #121424 !important;
+}
+.tipo-descuento{
+	width: 20%;
+	height: 70px;
+	background-color: rgba(18, 21, 38, 0.6);
+	float: left;
+}
+.tipo-descuento p{
+	color: #fff;
+    font-size: 23px;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+.datos-descuento{
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 80%;
+	height: 70px;
+	float: right;
+	box-sizing:border-box;
+	padding: 10px;
+	font-size: 12px;
+	line-height: 14px;
+}
+	.datos-descuento p{
+		margin-bottom: 2px;
+	}
+	.datos-descuento .cupon-titulo{
+		font-weight: bold;
+	}
+	.datos-descuento .cupon-descripcion{
+		/*font-family: 'Montserrat-Semibold';*/
+		font-size: 10px;
+	}
+.caducado{
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	background: rgba(255, 255, 255, 0.7);
+	width: 100%;
+	height: 220px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+	.caducado p{
+		padding-top: 95px;
+	}
+/* CUPON */
+
+.imagen_container{
+	width: 100%;
+    margin: 10px 0;
+    max-height: 250px;
+}
+.imagen_container img{
+	width: auto;
+    max-height: 250px;
+    margin: 0 auto;
+    display: block;
+}
+.section-description{
+	margin: 10px 0;
+}
+.section-description p{
+	margin: 5px auto;
+}
+.section-description .cupon-title{
+	font-size: 16px;
+	font-weight: bold;
+}
+.otras{
+	width: 90%;
+	display: block;
+	margin: 20px auto;
+}
+	.otras img{
+
+	}
+.tipo img{
+	max-width: 30%;
+}
+.oferta .social{
+	float: right;
+	font-size: 20px;
+	text-align: right;
+	margin-bottom: 10px;
+}
+.oferta .social i{
+	padding: 0 4px;
+}
+
+.comentario	{
+	margin:5px auto;
+}
+.comentario .autor img{
+	margin: 0 auto;
+    display: block;
+}
+.comentario .autor .nombre{
+	text-align: center;
+}
+
+
+.comentario .comment{
+	padding: 10px 15px; 
+	border: 1px solid #121424;
+}
+
+.btn-comentario{
+	float:  right;
+	width: 90px;
+	margin: 10px 0;
+	background-color: #121424;
+	border-radius: 20px;
+	padding: 5px 17px;
+	color: #fff;
+	border: 3px solid #fff;
+	box-shadow: 0px 1px 5px grey;
+	font-size: 12px;
+	text-align: center;
+}
+	.btn-comentario:focus, .btn-comentario:active{
+		color: #fff;
+	}
+.descargar{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	display: block;
+	margin: 20px auto;
+}
+
+.descargar a{
+	color: #fff;
+	text-decoration: none;
+}
+div#ubicacion{
+	padding-bottom: 100px;
+}
+.ubicacion{
+	margin:25px auto;
+}
+
+.image_picker_image{
+	width: 200px !important;
+}
+/*  previsualizacion cupon */
+.modal.dialog{
+	position: relative;
+}
+img.cerrar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 28px;
+    cursor: pointer;
+}
+img.eliminar{
+	position: absolute;
+    right: 15px;
+    top: 0;
+    z-index: 10;
+    width: 20px;
+    cursor: pointer;
+}
+.texto-visualizacion-cupon
+{
+	background-color: #121424;
+	color: #fff;
+	min-height: 400px
+}
+.resultado-cupon{
+	margin-top: 25px;
+    padding-left: 24px;
+}
+
+.modal-visualizacion-cupon {
+	min-height: 400px;
+}
+.visualizacion-cupon{
+	position: relative;
+}
+	.visualizacion-cupon > .datos-cupon {
+		/*width: 92% !important;*/
+		height: 80px;
+	}
+		.visualizacion-cupon > .datos-cupon .tipo-descuento{
+			height: 80px;
+		}
+		.visualizacion-cupon > .datos-cupon .datos-descuento{
+			height: 80px;
+		}
+	.visualizacion-cupon .logo-tienda {
+		width: 80px;
+	    margin-right: 23px;
+	    margin-top: 15px;
+	}
+
+	.visualizacion-cupon .logo-blanco, .visualizacion-cupon  .logo-negro{
+		float: right;
+		margin-right: 9px;
+	}
+
+.like-objeto
+{
+	height: 8px;
+    width: 100px;
+    padding: 3px;
+    background-color: black;
+    color: #fff;
+    font-size: 9px;
+}
+
+.iconos-cupon
+{
+	display: inline;
+	vertical-align: middle;
+}
+
+/*** Página comentarios ***/
+.comentarios{
+	margin:30px auto;
+}
+	.comentarios .logo-cupon, .comentarios .logo-tienda{
+		margin: 20px auto;
+		width: auto;
+		text-align: center;
+	}
+		.comentarios .logo-tienda img{
+			display: block;
+			margin: 0 auto;
+		}
+.back{
+	background-color: #121424;
+	font-size: 20px;
+}
+	.back a{
+		color: #fff;
+	}
+	.back i, .atras i{
+		font-size: 20px;
+		padding: 15px 0 ;
+	}
+.col-xs-3.autor{
+	padding-left: 0;
+}
+/********************/
+/****** SWITCHES *****/
+/********************/
+
+.onoffswitch {
+    position: relative; width: 70px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #121424; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 20px; padding: 0; line-height: 20px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #121424; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #121424;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 15px; margin: 4px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 46px;
+    border: 2px solid #121424; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+/********************/
+/***** USUARIO ******/
+/********************/
+.ezdz-dropzone{
+	border:none;
+}
+#mi-cuenta .section-title{
+	text-transform: uppercase;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+.section-title.usuario:after{
+    content: '';
+    position: absolute;
+    left: 47%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid #121424;
+    clear: both;
+}
+.datos-usuario{
+	background: rgba(10, 21, 38, 0.3);
+	margin-top:20px;
+	padding:20px;
+}
+	.datos-usuario img{
+		width: 80%;
+		max-width: 100px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 50%;
+	}
+	.datos-usuario.editar{
+		margin-top: 0;
+	}
+.imagen_usuario{
+	border-radius: 50%;
+}
+.botones-usuario{
+}
+	.botones-usuario a{
+		text-align: center;
+		color: #fff;
+		padding:15px 10px;
+		display: block;
+	}
+		.botones-usuario a.editar{
+			background: rgba(10, 21, 38, 0.6);
+			margin-top: 20px;
+		}
+		.botones-usuario a.ver-cupones{
+			background: #121424;
+		}
+#cambiar-foto{
+	background: rgba(10, 21, 38, 0.2);
+}
+	#cambiar-foto .form-group{
+		margin-bottom: 0;
+	}
+	#cambiar-foto .ezdz-dropzone img{
+		padding: 20px;
+	}
+.row.submit{
+	margin-bottom: 20px;
+}
+#mi-cuenta .collapse{
+
+}
+/*  Editar mis datos  */
+.datos-usuario .form-control{
+	border: none;
+	border-radius: 0;
+}
+.imagen-usuario{
+	width: 130px;
+	height: 130px;
+	display: block;
+	margin: 60px auto 0 auto;
+	border-radius: 50%;
+}
+.submit-datos{
+	background-color: #121424;
+	border: none;
+	color: #fff;
+	text-align: center;
+	padding: 20px 70px;
+	display: block;
+	margin: 20px auto 0 auto;
+}
+/********************/
+/***** COMERCIO *****/
+/********************/
+.form-buscador{
+	width: 100%;
+	height: 40px;
+	padding-left:10px; 
+}
+.comercio .item-left{
+	float: left;
+}
+.comercio img{
+	display: block;
+    /* width: 50%; */
+    max-width: 70px !important;
+    margin: 0 auto;
+}
+/* Submenu Comercio */
+	.submenu-comercio{
+		background: rgba(10, 21, 38, 0.3);
+		margin-top: 50px;
+		position: relative;
+	}
+		.submenu-comercio .submenu-item-list{
+			background: #121424;
+			width: 30%;
+			display: inline-block;
+			margin-bottom: 0;
+		}
+		.submenu-comercio .submenu-categorias{
+			width: 100%;
+		}
+			.submenu-comercio .submenu-item-list li{
+				padding: 15px 40px;
+			}
+				.submenu-comercio .submenu-item-list a{
+					color: #fff;
+				}
+			.submenu-comercio .submenu-item-list .active{
+				background-color: #fff;
+				position: relative;
+				border-top: 2px solid #121426;
+    			border-bottom: 2px solid #121426;
+			}
+				.submenu-comercio .submenu-item-list .active:after{
+					left: 100%;
+					top: 50%;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					pointer-events: none;
+					border-color: rgba(255, 255, 255, 0);
+					border-left-color: #ffffff;
+					border-width: 25px;
+					margin-top: -25px;
+					z-index: 2;
+				}
+				.submenu-comercio .submenu-item-list  a li.active {
+					color:  #121424;
+				}
+		.submenu-comercio .submenu-item-description{
+			display: inline-block;
+			position: absolute;
+			padding: 0 50px;
+			width: 70%;
+			overflow: hidden;
+		}
+			.submenu-comercio .submenu-item-description p{
+				margin-top: 15px;
+			}
+
+
+		.submenu-comercio .edicion{
+			height: 150px;
+		}
+		.submenu-comercio .edicion .promo{
+		    width: 235px;
+		    margin: 0px;
+		    display: inline-block;
+		}
+			.submenu-comercio .edicion .promo .datos-cupon, 
+			.submenu-comercio .edicion .promo .datos-cupon .tipo-descuento, 
+			.submenu-comercio .edicion .promo .datos-cupon .datos-descuento{
+				height: 48px;
+			}	
+				.submenu-comercio .edicion .promo .datos-cupon .tipo-descuento p{
+					margin: 10px 0 0 0;
+				}
+				.submenu-comercio .edicion .promo .datos-cupon .datos-descuento p{
+					line-height: 8px;
+					padding: 1px;
+					margin-top: 0;
+				}
+
+			.submenu-comercio .edicion .enlaces{
+				display:inline-block;
+				float: right;
+			}
+				.submenu-comercio .edicion .enlaces div{
+					display: inline-block;
+				    padding: 0 25px;
+				}	
+				.submenu-comercio .edicion .enlaces img{	
+					width: 50px;
+					margin-top: 30px;
+				}
+
+
+        .listado .iconos-listados{
+            float: right;
+            margin-top: 15px;
+        }
+            .listado .iconos-listados .iconos{
+                display: inline-block;
+                margin: 0 10px;
+                
+            }
+                .listado .iconos-listados .iconos img{
+                    width:20px;
+                    display: inline-block;
+                    margin-right: 7px;
+                  
+
+                }
+                .listado .iconos-listados .iconos span{
+					vertical-align: sub;
+                }
+	                .listado .iconos-listados .iconos span.activo{
+						color: #fff;
+	                }
+#editor-cupon .row.gris-medio, #duplicar-cupon .row.gris-medio{
+	padding: 10px 25px;
+}
+.gris-medio .promo{
+	margin: 0 auto;
+}
+/* cupones */
+
+.row.gris{
+	margin: 30px 0px;
+	background: rgba(10, 21, 38, 0.4);
+	padding:0 30px;
+}
+	.gris .promo{
+		margin: 0px 5px !important;
+	}
+	.gris .caducado,
+	.edicion .caducado{
+		height: 204px;
+	    line-height: 20px;
+	    font-size: 20px;
+	}	
+		.edicion .caducado p,
+		.gris .caducado p{
+			padding-top: 70px;
+		}
+
+.row.gris-oscuro{
+	margin: 0px;
+	background: rgba(10, 21, 38, 0.6);
+	padding:25px;
+	
+}
+.row.gris-medio{
+	margin: 0px;
+	background: rgba(10, 21, 38, 0.4);
+	padding:25px;
+	
+}
+	.row.gris-oscuro p,
+	.row.gris-medio p,
+	.row.gris-oscuro label,
+	.row.gris-medio label{
+		color: #fff;
+		font-weight: 400;
+	}
+		.row.gris-oscuro p.titulo{
+			margin-bottom: 0;
+		}
+	.row.gris-oscuro .form-group{
+		background-color: #fff;
+	}
+
+	.row.gris-medio .form-control, 
+	.row.gris .form-control,
+	.row.gris-oscuro .form-control{
+		border-radius: 0;
+		border: none;
+		height: 34px;
+	}
+
+div.radio-box{
+	width: 60px;
+	display: inline-block;
+	padding:18px 3px;
+	margin: 0 3px;
+	vertical-align: top;
+}
+.form-group.categorias{
+	padding:0 8px ;
+	max-height: 107px;
+	overflow: hidden;
+}
+.radio-icon{
+	width: 40px;
+	display: block;
+	margin:0 auto;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+}
+.imagenes-cupon img{
+	width: 400px !important;
+
+}
+	.radio-box p{
+		text-align: center;
+		font-size: 9px;
+		color: #121424!important;
+		margin-top: 10px;
+	}
+	label.radio-icon > input{ /* HIDE RADIO */
+	  display:none;
+	}
+	label.radio-icon > input + img{ /* IMAGE STYLES */
+	  cursor:pointer;
+	  border:2px solid transparent;
+
+	}
+	label.radio-icon > input:checked + img{ /* (CHECKED) IMAGE STYLES */
+	  border:2px solid #f00;
+	  width: 100px;	
+	  z-index: 100;
+	}
+.radio-box-active{
+	background-color: #121424;
+}
+	.radio-box-active img{
+		-webkit-filter: invert(100%);
+		-webkit-filter:brightness(30);
+	}
+	.radio-box-active p{
+		color: #fff !important;
+	}
+
+.radio-subcategorias{
+	padding: 20px 10px 20px 30px 
+}
+	.radio-subcategorias input{
+		line-height: 10px;
+	}
+	.radio-subcategorias p{
+		display: inline-block;
+		color: #121424!important;
+		vertical-align: top;
+		margin-left: 10px;
+		margin-right: 30px;
+	}
+	.radio-subcategorias input[type="radio"] {
+	    display:none; 
+	}
+
+	.radio-subcategorias label {
+	    display:inline-block;
+	    background-color:#fff;
+	    border-radius: 50%;
+	    width: 15px;
+	    height: 15px;
+	    border: 1px solid #121424;
+	}
+	.radio-subcategorias input[type="radio"]:checked + label { 
+	    background-color:#121424;
+	}
+
+.blanco{
+	padding: 40px 35px 30px 35px;
+	border: 3px solid rgba(10, 21, 38, 0.6);
+	position: relative;
+	overflow: hidden;
+}
+	.blanco div#s2id_id_label_multiple.form-control{
+		padding: 0 !important;
+		height: auto !important;
+		border: none;
+	}
+	.blanco .select2-container-multi .select2-choices{
+		background: url(../img/triangulo-white.png) no-repeat 98% #9DA1A8 !important;
+
+	}
+
+.filtro-select {
+   background: url(../img/triangulo.png) no-repeat 96% #fff;
+   height: 32px;
+   overflow: hidden;
+   width: 100%;
+   display: block;
+}
+	.filtro-select select, .filtro-select input {
+	   background: transparent;
+	   border: none;
+	   font-size: 14px;
+	   height: 32px;
+	   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+	   width:105%;
+	}
+	.fecha{
+		line-height: inherit;
+	}
+.row.botones{
+	margin-bottom: 50px;
+}
+	.btn-grey{
+		background: rgba(10, 21, 38, 0.7);
+		padding: 10px 60px;
+	}
+	.btn-blue{
+		background-color: #121424;
+		padding: 10px 50px;
+		color: #fff;
+		border: none;	
+		border-radius: 0;
+	}
+	.btn-green{
+		background-color: green;
+		padding: 10px 40px;
+		color: #fff;
+		border: none;	
+		border-radius: 0;
+	}
+		.btn-blue:hover, .btn-green:hover{
+			color: #fff;
+		}
+		 .row.botones .btn-blue, .blanco .btn-grey{
+			float: right;
+			color: #fff;
+			border: none;	
+			margin: 0 10px;
+		}
+
+
+.delete-title{
+	float: right;
+	padding-top: 10px;
+    margin-right: 25px;
+}
+.thumbnail{
+	max-height: 120px !important;
+}
+/* Tiendas */
+#tiendas .promo{
+	margin: 15px 60px;
+}
+	#tiendas .promo img{
+		max-width: 150px;
+		margin: 0;
+	}
+	#tiendas .promo p{
+		margin: 0 5px;
+	}
+#tiendas .gris-oscuro .form-group{
+	background: none;
+}
+	#tiendas .gris-oscuro > div{
+		padding: 20px 50px;
+	}
+.imagen-comercio img{
+	max-width: 200px;
+	width: 100%;
+}
+div.imagen-comercio{
+	margin-bottom: 30px;
+}
+.listado-tiendas-comercio{
+	margin-top: 50px;
+	padding: 0 15px;
+}
+	.col-md-3.tiendas{
+		padding: 0;
+	}
+	.col-md-3.tiendas:hover{
+		background: rgba(10, 21, 38, 0.1);
+	}
+		.col-md-3.tiendas .gris{
+			background: rgba(10, 21, 38, 0.3);
+		}
+		.col-md-3.tiendas p{
+			padding: 0 15px;
+		}
+
+
+
+.perfil{
+	padding: 0 15px;
+	overflow: hidden;
+	height: 265px;
+
+}
+	.perfil .gris-oscuro{
+		background: rgba(10, 21, 38, 0.6);
+		height: inherit;
+	}
+	.perfil .gris-oscuro .datos-tienda img, 
+	.perfil .gris-oscuro .datos-tienda .form-group{
+		width: 80%;
+		max-width: 200px;
+		display: block;
+		margin: 30px auto;
+	}
+
+	.perfil .blue{
+		background: #121424;
+		color: #fff;
+		overflow: hidden;
+		height: inherit;
+	}
+		.perfil .blue .datos-tienda{
+			margin: 30px;
+		}
+	.row.perfil .blanco{
+		padding: 15px;
+		height: auto;
+	}
+
+/************************/
+/*****   GESTION   ******/
+/************************/
+#ges-categorias{
+	padding-bottom: 100px;
+}
+#ges-categorias .col-md-4{
+	margin-right: 0;
+    padding-right: 0;
+}
+#ges-categorias .col-md-8{
+	margin-left: 0;
+    padding-left: 0;
+}
+	.categoria-box{
+		padding:5px 10px;
+		margin: 5px;
+	}
+		.categoria-box img{
+			max-width: 60px;
+			display: block;
+			margin: 5px auto;
+		}
+		.categoria-box p{
+			text-align: center;
+			margin-bottom: 0;
+			font-size: 12px;
+		}
+		.categoria-box:hover{
+			background-color: #fff;
+		}
+ #ges-categorias .blue{
+	background-color: #121424;
+	color: #fff;
+	padding: 20px;
+} 
+	#ges-categorias .blue p{
+		margin-bottom: 0;
+	}
+
+
+#ges-categorias  .submenu-comercio.submenu-item-description {
+    padding: 1px 20px;
+}
+
+#ges-categorias .imagen-categoria-box{
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+	#ges-categorias .imagen-categoria-box img{
+		padding:10px 20px;
+	}
+
+.input-categorias{
+	width: 60%;
+	padding: 8px;
+}
+/************************/
+/****** Editor Home *****/
+/************************/
+.gestion .bloque-form{
+	background: rgba(10, 21, 38, 0.6);
+	min-height: 722px;
+	color: #fff;
+	padding-bottom: 100px;
+	margin-left: -15px;
+}
+	.gestion .submenu-comercio{
+		margin-top: 0;
+		background: none;
+	}
+		.gestion .submenu-item-list{
+			width: auto;
+			margin-left: -15px;
+		}		
+			.gestion .submenu-item-list .active{
+				border: none;
+			}
+.selectores .form-group{
+	width: 30%;
+	display: inline-block;
+}
+.tabla_resultados_busqueda{
+	padding: 30px 0 50px 0;
+    margin: 0 -15px;
+}
+	.tabla_resultados_busqueda .resultado{
+		background-color:#B6B9BE;
+		padding: 10px;
+	}
+		.tabla_resultados_busqueda .resultado .row{
+			margin: 0;
+		}
+.editform{
+	display: block;
+	clear: both;
+}
+	.editform.btn-blue{
+		display: block;
+		margin: 0 auto;
+	}
+.borde_activa{
+	border: 8px solid #121424 !important;
+	background-color: #fff;
+}
+
+/********************/
+/*****   PDF   ******/
+/********************/
+body.pdf{
+ font-family: 'Lato', sans-serif;
+}
+.pdf .logo-container{
+	margin: 20px auto;
+}
+.pdf-body{
+	width: 90%;
+	display: block;
+	margin: 30px auto 10px auto;
+	text-align: justify;
+}
+.line{
+	border-top:1px solid grey;
+	margin-top: 20px;
+}
+
+.descripcion-cupon{
+	position: relative;
+}
+	.descripcion-cupon .imagen-cupon{
+		width: 320px;
+		display: inline-block;
+	}
+		.descripcion-cupon .imagen-cupon img{
+			margin: 0;
+		}
+
+	.descripcion-cupon .texto-cupon{
+		display: inline-block;
+		width: 45%;
+		margin-left: 5%;
+		margin-top: 10px;
+		font-size: 14px
+	}
+		.cupon-title{
+			font-weight: bold;
+			font-size: 20px;
+		}
+
+.pdf-datos-cupon{
+	margin-top: -55px;
+	height: 60px;
+	width: 100%;
+	color: #121424 !important;
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-left:-1px; 
+}
+	.pdf-datos-cupon .pdf-tipo-descuento{
+		width: 60px;
+		height: 60px;
+		background-color: rgba(18, 21, 38, 0.6);
+		display: inline-block;
+	}
+		.pdf-datos-cupon .pdf-tipo-descuento .tipo{
+			color: #fff !important;
+		    font-size: 20px;
+		    text-align: center;
+		    margin-top: 17px;
+		}
+	.pdf-datos-cupon .pdf-datos-descuento{
+		width: 240px;
+		height: 60px;
+		box-sizing:border-box;
+		padding: 0 10px;
+		font-size: 11px;
+		display: inline-block;
+		line-height: 9px;
+	}
+		.pdf-datos-cupon .pdf-datos-descuento .pdf-cupon-titulo{
+			font-weight: bold;
+				margin-bottom: 0;
+	
+		}		
+		.pdf-datos-cupon .pdf-datos-descuento .pdf-cupon-descripcion{
+			font-weight: normal;
+			margin-top: 0;
+	
+		}
+
+.establecimientos{
+	padding-top: 30px;
+}
+
+	.establecimientos .logo-marca{
+		width: 20%;
+		display: inline-block;
+	}
+
+	.establecimientos .listado-tiendas{
+		display: inline-block;
+		width: 20%;
+		font-size: 11px;
+		padding:0 15px;
+		box-sizing:border-box;
+	}
+
+	.establecimientos .listado-tiendas p{
+		margin-bottom: 5px;
+	}
+
+.qr-cupon{
+	padding-top: 30px;
+}
+
+	.qr-cupon .qr{
+		display: block;
+		margin: 20px auto;
+		width: 250px;
+	}
+
+.politicas{
+	padding-top: 30px;
+	font-size: 12px;
+}
+	
+
+
+
+/***********************/
+/**** VALIDACIONES *****/
+/***********************/
+
+/* SUBMENU VALIDACIONES*/
+
+
+/* LISTADO VALIDACIONES*/
+
+.listado-validaciones .row{
+	margin:0 0 20px  0;
+	background: rgba(10, 21, 38, 0.6);
+	color: #fff;
+
+}
+	.listado-validaciones img.imagen-elemento{
+		width: 50%;
+	    display: block;
+	    margin: 20px auto;
+	}
+	.listado-validaciones .elemento{
+		padding: 20px 0; 
+		text-align: justify;
+	}
+		.listado-validaciones .elemento a{
+			color:#fff; 
+		}		
+			.listado-validaciones .elemento a:focus, .listado-validaciones .elemento a:active{
+				color:#fff; 
+			}
+		.listado-validaciones li.nombre-elemento{
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		.listado-validaciones .botones{
+			padding: 20px 0;
+		}
+			.listado-validaciones .btn-green{
+				margin: 0 auto;
+			}
+		.listado-validaciones .row {
+		    display: table;
+		    width:100%;
+		}
+		    
+		    
+		.listado-validaciones .botones {
+		    display: table-cell;
+		    vertical-align: middle;
+		    width: 350px;
+		    text-align: right;
+		}
+		.listado-validaciones .botones span{
+			display: inline-block;
+		}
+
+/***********************/
+/***** RESPONSIVE ******/
+/***********************/
+
+@media(max-width: 1199px){
+	div.radio-box{
+		width: 46px;
+		word-wrap: break-word;
+	}
+
+
+	#tiendas .promo{
+		margin:15px 0;
+	}
+	.submenu-comercio .edicion .enlaces{
+		padding: 0px 39px;
+	}
+}
+
+@media(min-width:768px){
+	.dropdown-menu li a{
+		color: #121424 !important;
+		text-align: left !important;
+	}
+}
+
+@media(min-width: 415px) and (max-width: 767px){
+	.promo{
+		max-width: 70%;
+		margin-top: 40px;
+		-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+	}
+	.imagen-categoria {
+	    position: absolute;
+	    left: 42%;
+	}
+
+	.otras {
+	    width: 50%;
+	    display: block;
+	    margin: 20px auto;
+	}
+}
+
+.radio-select-text{
+    font-weight: 400;
+    color: #FFf;
+    letter-spacing: 1px;
+}
